@@ -103,3 +103,46 @@ cd SpringBootDemoMongoDB
 ### 2. Configure Databases
 
 Update application.properties with your MongoDB Atlas 
+ ### 3 Run the Application
+
+ mvn spring-boot:run
+
+The server will start on http://localhost:8080.
+
+### 4. API Endpoints
+##### GET --> /demo/health
+Health check
+
+##### GET --> /demo/getAll
+Get all user entries
+
+##### POST --> /demo/create
+Create a new entry
+
+##### GET --> /demo/getById/{id}
+Get entry by ID
+
+##### DELETE -->  /demo/deleteById/{id}
+Delete entry
+
+##### PUT-->  /demo/updateById/{id}
+Update entry
+
+### Learnings & Challenges
+
+Spring Security: Learned how to secure endpoints with roles & permissions.
+
+MongoDB Transactions: Faced issues maintaining consistency, solved using @Transactional.
+
+Ingerating Mongodb with springboot 
+
+Unit Testing: Learned to write parameterized tests using ArgumentsProvider.
+
+
+ ### Future Enhancements
+
+Implement JWT-based authentication
+
+Improve exception handling and logging
+
+Add Swagger for API documentation
