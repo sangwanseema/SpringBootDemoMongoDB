@@ -128,6 +128,22 @@ Delete entry
 ##### PUT-->  /demo/updateById/{id}
 Update entry
 
+#####  GET --> /user/health
+User health check
+
+##### GET --> /user/
+Get all users
+
+##### GET --> /user/getUser
+Get authenticated user with weather info
+
+##### DELETE --> /user/deleteUser
+Delete authenticated user
+
+##### PUT --> /user/updateUser
+Update authenticated user
+
+
 ### Learnings & Challenges
 
 Spring Security: Learned how to secure endpoints with roles & permissions.
