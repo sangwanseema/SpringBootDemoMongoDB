@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a Spring Boot application that demonstrates the integration of MongoDB and MySQL. It includes authentication using Spring Security, CRUD operations, and transactional consistency.
+This project is a Spring Boot application that demonstrates the integration of MongoDB. It includes authentication using Spring Security, CRUD operations, and transactional consistency.
 
 ## Features Implemented
 
